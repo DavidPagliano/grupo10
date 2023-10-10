@@ -4,9 +4,9 @@ import { getCliente, getClientes, createCliente, deleteCliente, updateCliente } 
 
 const router_producto = express.Router();
 
-router_producto.get('/', getCliente);
+router_producto.get('/', getClientes);
 
-router_producto.get('/:id', getClientes);
+router_producto.get('/:id', getCliente);
 
 router_producto.post('/', createCliente);
 

@@ -39,7 +39,7 @@ export const deleteProducto = (req, res) => {
     }
 };
 
-export const updateCliente =  (req,res) => {
+export const updateProducto =  (req,res) => {
     const { id } = req.params;
     const { productos, precio } = req.body;
     if (id && productos && precio ) {
