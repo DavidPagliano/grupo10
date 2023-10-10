@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { getCliente, getClientes, createCliente, deleteCliente, updateCliente } from '../controllers/users.js';
+import { getCliente, getClientes, createCliente, deleteCliente, updateCliente } from '../controllers/cliente.js';
 
 const router_producto = express.Router();
 

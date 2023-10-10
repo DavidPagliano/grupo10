@@ -2,14 +2,16 @@
   "name": "grupo10",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DavidPagliano/grupo10.git"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
