@@ -14,7 +14,8 @@ app.use(bodyParser.json());
 
 app.use("/cliente", clienteRoutes);
 app.use("/producto",productosRoutes);
-app.use("/venteas", ventasRoutes);
+app.use("/ventas", ventasRoutes);
 app.get("/", (req, res) => res.send("Welcome to the API RFEST!"));
 
+//listering server
 app.listen(PORT, () =>console.log(`Server running on port: http://localhost:${PORT}`));
